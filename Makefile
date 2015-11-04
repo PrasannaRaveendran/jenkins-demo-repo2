@@ -16,10 +16,10 @@ check-style-ci:
         --report-file=build/checkstyle.xml ./
  
 check-cpd:
-    phpcpd --min-lines 3 --min-tokens 50 --suffixes php ./
+    phpcpd --min-lines 3 \ --min-tokens 50 \ --suffixes php ./
  
 check-cpd-ci:
-    phpcpd --min-lines 3 --min-tokens 50 \
+    phpcpd --min-lines 3 \ --min-tokens 50 \
         --suffixes php --log-pmd build/pmd.xml ./
  
 check-js:
