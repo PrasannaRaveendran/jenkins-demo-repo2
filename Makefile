@@ -20,8 +20,10 @@ check-cpd:
 			--min-tokens=50 \ --suffixes php ./
  
 check-cpd-ci:
-    phpcpd --min-lines 3 \ --min-tokens 50 \
-        --suffixes php --log-pmd build/pmd.xml ./
+    phpcpd --min-lines=3 \ 
+	--min-tokens=50 \
+        --suffixes php \
+		--log-pmd build/pmd.xml ./
  
 check-js:
     jshint webroot/javascript --config app/Config/jshint.json
