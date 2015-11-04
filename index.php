@@ -84,14 +84,13 @@
                 <b><p id="ok"></p></b>
             </div>
         </form>
-        <!--</div>-->
-
-        <!--</div>
-        
-        
-        
-        </div>-->
+       <?php
+		
+			echo 'abc ;
+	   ?>
 
 
     </body>
 </html>
+
+
